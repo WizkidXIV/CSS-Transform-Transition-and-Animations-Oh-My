@@ -27,17 +27,16 @@ nav {
   opacity: 1;
 }
 
-@keyframes top {
-  from {}
-  to {}
-}
+ @keyframes top {
+      0% { transform: translateY(10px); }
+      100% { transform: rotate(45deg) translateY(25px) translateX(23px);}
+    }
 
-@keyframes middle {
-  from {}
-  to {}
-}
+    @keyframes middle {
+      0% { background-color: rebeccapurple; }
+      100% { background-color: mediumvioletred; }
+    }
 
-@keyframes bottom {
-  from {}
-  to {}
-}
+    @keyframes bottom {
+      0% { transform: translateY(-10px); }
+      100% { transform: rotate(-45deg) translateY(-23px) translateX(23px);}
